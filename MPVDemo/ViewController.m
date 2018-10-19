@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "GetNetImgPresenter.h"
 
 @interface ViewController ()
 
@@ -16,8 +17,32 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    self.imgView = [[GetNetImgView alloc] init];
+    self.imgView.clickDelegate = self;
+    self.imgView.frame = CGRectMake(0, 20, [ UIScreen mainScreen ].bounds.size.width,
+                                    [ UIScreen mainScreen ].bounds.size.height - 20);
+    [self.view addSubview:self.imgView];
+    
+    self.presenter = [[GetNetImgPresenter alloc] init];
+    [self.presenter attchView:self.imgView];
 }
+
+#pragma 实现点击 协议
+-(void) onClickListener:(UIView *)view{
+    NSLog(@"30----------:");
+    [self.presenter getNetImgRes];
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    
+}
+
+- (void)viewDidDisappear:(BOOL)animated{
+    
+}
+
+
 
 
 @end

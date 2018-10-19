@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "GetNetImgView.h"
 
-@interface ViewController : UIViewController
+@class GetNetImgPresenter;
 
+@interface ViewController : UIViewController<ViewClickListener>
+
+@property(nonatomic,strong) GetNetImgView *imgView;
+@property(nonatomic,strong) GetNetImgPresenter* presenter;
 
 @end
 

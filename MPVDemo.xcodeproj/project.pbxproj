@@ -15,6 +15,13 @@
 		6B1E5D38215E14B500683250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D37215E14B500683250 /* main.m */; };
 		6B1E5D42215E14B500683250 /* MPVDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D41215E14B500683250 /* MPVDemoTests.m */; };
 		6B1E5D4D215E14B500683250 /* MPVDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D4C215E14B500683250 /* MPVDemoUITests.m */; };
+		6B1E5D5F215E156600683250 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D5E215E156600683250 /* BaseModel.m */; };
+		6B1E5D62215E159F00683250 /* GetNetImgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D61215E159F00683250 /* GetNetImgModel.m */; };
+		6B1E5D65215E16D700683250 /* weixintecent_register@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B1E5D64215E16D700683250 /* weixintecent_register@2x.png */; };
+		6B1E5D68215E171000683250 /* BasePresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D67215E171000683250 /* BasePresenter.m */; };
+		6B1E5D6B215E1C4F00683250 /* BaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D6A215E1C4F00683250 /* BaseView.m */; };
+		6B1E5D6E215E1D1500683250 /* GetNetImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D6D215E1D1500683250 /* GetNetImgView.m */; };
+		6B1E5D71215E263900683250 /* GetNetImgPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1E5D70215E263900683250 /* GetNetImgPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		6B1E5D48215E14B500683250 /* MPVDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPVDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B1E5D4C215E14B500683250 /* MPVDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPVDemoUITests.m; sourceTree = "<group>"; };
 		6B1E5D4E215E14B500683250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B1E5D5D215E156600683250 /* BaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		6B1E5D5E215E156600683250 /* BaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		6B1E5D60215E159F00683250 /* GetNetImgModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNetImgModel.h; sourceTree = "<group>"; };
+		6B1E5D61215E159F00683250 /* GetNetImgModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNetImgModel.m; sourceTree = "<group>"; };
+		6B1E5D64215E16D700683250 /* weixintecent_register@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixintecent_register@2x.png"; sourceTree = "<group>"; };
+		6B1E5D66215E171000683250 /* BasePresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasePresenter.h; sourceTree = "<group>"; };
+		6B1E5D67215E171000683250 /* BasePresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasePresenter.m; sourceTree = "<group>"; };
+		6B1E5D69215E1C4F00683250 /* BaseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseView.h; sourceTree = "<group>"; };
+		6B1E5D6A215E1C4F00683250 /* BaseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseView.m; sourceTree = "<group>"; };
+		6B1E5D6C215E1D1500683250 /* GetNetImgView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNetImgView.h; sourceTree = "<group>"; };
+		6B1E5D6D215E1D1500683250 /* GetNetImgView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNetImgView.m; sourceTree = "<group>"; };
+		6B1E5D6F215E263900683250 /* GetNetImgPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNetImgPresenter.h; sourceTree = "<group>"; };
+		6B1E5D70215E263900683250 /* GetNetImgPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNetImgPresenter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +121,10 @@
 		6B1E5D27215E14B400683250 /* MPVDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6B1E5D63215E16B000683250 /* image */,
+				6B1E5D5C215E154500683250 /* view */,
+				6B1E5D5B215E151B00683250 /* presenter */,
+				6B1E5D5A215E151300683250 /* model */,
 				6B1E5D28215E14B400683250 /* AppDelegate.h */,
 				6B1E5D29215E14B400683250 /* AppDelegate.m */,
 				6B1E5D2B215E14B400683250 /* ViewController.h */,
@@ -130,6 +154,47 @@
 				6B1E5D4E215E14B500683250 /* Info.plist */,
 			);
 			path = MPVDemoUITests;
+			sourceTree = "<group>";
+		};
+		6B1E5D5A215E151300683250 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				6B1E5D5D215E156600683250 /* BaseModel.h */,
+				6B1E5D5E215E156600683250 /* BaseModel.m */,
+				6B1E5D60215E159F00683250 /* GetNetImgModel.h */,
+				6B1E5D61215E159F00683250 /* GetNetImgModel.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		6B1E5D5B215E151B00683250 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				6B1E5D66215E171000683250 /* BasePresenter.h */,
+				6B1E5D67215E171000683250 /* BasePresenter.m */,
+				6B1E5D6F215E263900683250 /* GetNetImgPresenter.h */,
+				6B1E5D70215E263900683250 /* GetNetImgPresenter.m */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		6B1E5D5C215E154500683250 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				6B1E5D69215E1C4F00683250 /* BaseView.h */,
+				6B1E5D6A215E1C4F00683250 /* BaseView.m */,
+				6B1E5D6C215E1D1500683250 /* GetNetImgView.h */,
+				6B1E5D6D215E1D1500683250 /* GetNetImgView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		6B1E5D63215E16B000683250 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				6B1E5D64215E16D700683250 /* weixintecent_register@2x.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B1E5D65215E16D700683250 /* weixintecent_register@2x.png in Resources */,
 				6B1E5D35215E14B500683250 /* LaunchScreen.storyboard in Resources */,
 				6B1E5D32215E14B500683250 /* Assets.xcassets in Resources */,
 				6B1E5D30215E14B400683250 /* Main.storyboard in Resources */,
@@ -263,8 +329,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B1E5D2D215E14B400683250 /* ViewController.m in Sources */,
+				6B1E5D6E215E1D1500683250 /* GetNetImgView.m in Sources */,
+				6B1E5D62215E159F00683250 /* GetNetImgModel.m in Sources */,
+				6B1E5D6B215E1C4F00683250 /* BaseView.m in Sources */,
 				6B1E5D38215E14B500683250 /* main.m in Sources */,
+				6B1E5D5F215E156600683250 /* BaseModel.m in Sources */,
 				6B1E5D2A215E14B400683250 /* AppDelegate.m in Sources */,
+				6B1E5D68215E171000683250 /* BasePresenter.m in Sources */,
+				6B1E5D71215E263900683250 /* GetNetImgPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,7 +508,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGVJJ53UK4;
 				INFOPLIST_FILE = MPVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,7 +526,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DGVJJ53UK4;
 				INFOPLIST_FILE = MPVDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
